@@ -1,0 +1,57 @@
+.bucketList li {
+    list-style: none;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    font-size: 22px;
+    line-height: 2em;
+}
+
+.bucketList li span {
+    cursor: pointer;
+}
+
+.bucketList {
+    padding: 7px;
+    margin: 0;
+}
+
+.bucketListText {
+    color: #2681f3;
+}
+
+.listWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 1%;
+}
+
+.bucketMenu {
+    width: 30%;
+    background-color: #09d3acad;
+    padding-bottom: 1em;
+}
+
+.bucketMenu input {
+    margin-left: 20%;
+    margin-right: 2%;
+}
+
+.todoList {
+    width: 70%;
+    background-color: #2681f21c;
+}
+
+.todoList div {
+    line-height: 2.75em;
+    padding-top: 7px;
+    padding-bottom: 5px;
+}
+
+.todoList input {
+    margin-left: 5%;
+}
+
+.todoList input[type='text'] {
+    margin-left: 20%;
+    margin-right: 2%;
+}
